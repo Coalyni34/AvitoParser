@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fZINEpgEQqE=",
+  "success": true,
+  "projectFilePath": "/media/coalyni/TrueOmm/Aviser/Aviser/Aviser.csproj",
+  "expectedPackageFiles": [
+    "/home/coalyni/.nuget/packages/htmlagilitypack/1.12.2/htmlagilitypack.1.12.2.nupkg.sha512",
+    "/home/coalyni/.nuget/packages/selenium.webdriver/4.34.0/selenium.webdriver.4.34.0.nupkg.sha512"
+  ],
+  "logs": []
+}

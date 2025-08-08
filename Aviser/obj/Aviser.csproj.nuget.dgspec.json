@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/coalyni/TrueOmm/Aviser/Aviser/Aviser.csproj": {}
+  },
+  "projects": {
+    "/media/coalyni/TrueOmm/Aviser/Aviser/Aviser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/coalyni/TrueOmm/Aviser/Aviser/Aviser.csproj",
+        "projectName": "Aviser",
+        "projectPath": "/media/coalyni/TrueOmm/Aviser/Aviser/Aviser.csproj",
+        "packagesPath": "/home/coalyni/.nuget/packages/",
+        "outputPath": "/media/coalyni/TrueOmm/Aviser/Aviser/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/coalyni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.12.2, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.34.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
