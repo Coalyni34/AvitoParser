@@ -15,23 +15,6 @@
           }
         }
       },
-      "Knapcode.TorSharp/2.15.0": {
-        "type": "package",
-        "dependencies": {
-          "SharpCompress": "0.32.2",
-          "System.ServiceModel.Syndication": "6.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Knapcode.TorSharp.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Knapcode.TorSharp.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Selenium.WebDriver/4.34.0": {
         "type": "package",
         "compile": {
@@ -46,31 +29,6 @@
         },
         "build": {
           "buildTransitive/Selenium.WebDriver.targets": {}
-        }
-      },
-      "SharpCompress/0.32.2": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/SharpCompress.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/SharpCompress.dll": {}
-        }
-      },
-      "System.ServiceModel.Syndication/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/System.ServiceModel.Syndication.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
         }
       }
     }
@@ -121,25 +79,6 @@
         "readme.md"
       ]
     },
-    "Knapcode.TorSharp/2.15.0": {
-      "sha512": "uFIymeYyF2HZ/9nhmouwg42e/ya5Qxqwzx+xo0/poB50DUIapDu+rtFu8eiig9jc0ppeQSM9abjZxU5C9duR9g==",
-      "type": "package",
-      "path": "knapcode.torsharp/2.15.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "icon.png",
-        "knapcode.torsharp.2.15.0.nupkg.sha512",
-        "knapcode.torsharp.nuspec",
-        "lib/net462/Knapcode.TorSharp.dll",
-        "lib/net462/Knapcode.TorSharp.xml",
-        "lib/net472/Knapcode.TorSharp.dll",
-        "lib/net472/Knapcode.TorSharp.xml",
-        "lib/netstandard2.0/Knapcode.TorSharp.dll",
-        "lib/netstandard2.0/Knapcode.TorSharp.xml"
-      ]
-    },
     "Selenium.WebDriver/4.34.0": {
       "sha512": "uNx+GF7WugHDPV2zpGDPlbSn3STQ6n0xFskFSeJdhEuuUTkIDfAsYnjVUiQidWDpy7mKzTz53ae7Thjghl3dng==",
       "type": "package",
@@ -161,54 +100,11 @@
         "selenium.webdriver.4.34.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
       ]
-    },
-    "SharpCompress/0.32.2": {
-      "sha512": "MSt6TKAg2c0uFFDtf7oACB4DfvXKq5Cvot2e0wjy5nAiVujpIRQ8laiIqCU/VMRGyytasGzg+nODKTkkDjbr/g==",
-      "type": "package",
-      "path": "sharpcompress/0.32.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "lib/net461/SharpCompress.dll",
-        "lib/net6.0/SharpCompress.dll",
-        "lib/netcoreapp3.1/SharpCompress.dll",
-        "lib/netstandard2.0/SharpCompress.dll",
-        "lib/netstandard2.1/SharpCompress.dll",
-        "sharpcompress.0.32.2.nupkg.sha512",
-        "sharpcompress.nuspec"
-      ]
-    },
-    "System.ServiceModel.Syndication/6.0.0": {
-      "sha512": "cp1mMNG87iJtE0oHXFtfWT6cfski2JNo5iU0siTPi/uN2k1CIJI6FE4jr4v3got2dzt7wBq17fSy44btun9GiA==",
-      "type": "package",
-      "path": "system.servicemodel.syndication/6.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/System.ServiceModel.Syndication.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.ServiceModel.Syndication.dll",
-        "lib/net461/System.ServiceModel.Syndication.xml",
-        "lib/net6.0/System.ServiceModel.Syndication.dll",
-        "lib/net6.0/System.ServiceModel.Syndication.xml",
-        "lib/netcoreapp3.1/System.ServiceModel.Syndication.dll",
-        "lib/netcoreapp3.1/System.ServiceModel.Syndication.xml",
-        "lib/netstandard2.0/System.ServiceModel.Syndication.dll",
-        "lib/netstandard2.0/System.ServiceModel.Syndication.xml",
-        "system.servicemodel.syndication.6.0.0.nupkg.sha512",
-        "system.servicemodel.syndication.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "HtmlAgilityPack >= 1.12.2",
-      "Knapcode.TorSharp >= 2.15.0",
       "Selenium.WebDriver >= 4.34.0"
     ]
   },
@@ -259,10 +155,6 @@
           "HtmlAgilityPack": {
             "target": "Package",
             "version": "[1.12.2, )"
-          },
-          "Knapcode.TorSharp": {
-            "target": "Package",
-            "version": "[2.15.0, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",
