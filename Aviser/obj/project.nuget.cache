@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "fZINEpgEQqE=",
+  "dgSpecHash": "EHTuJc89D5Y=",
   "success": true,
   "projectFilePath": "/media/coalyni/TrueOmm/Aviser/Aviser/Aviser.csproj",
   "expectedPackageFiles": [
     "/home/coalyni/.nuget/packages/htmlagilitypack/1.12.2/htmlagilitypack.1.12.2.nupkg.sha512",
-    "/home/coalyni/.nuget/packages/selenium.webdriver/4.34.0/selenium.webdriver.4.34.0.nupkg.sha512"
+    "/home/coalyni/.nuget/packages/knapcode.torsharp/2.15.0/knapcode.torsharp.2.15.0.nupkg.sha512",
+    "/home/coalyni/.nuget/packages/selenium.webdriver/4.34.0/selenium.webdriver.4.34.0.nupkg.sha512",
+    "/home/coalyni/.nuget/packages/sharpcompress/0.32.2/sharpcompress.0.32.2.nupkg.sha512",
+    "/home/coalyni/.nuget/packages/system.servicemodel.syndication/6.0.0/system.servicemodel.syndication.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

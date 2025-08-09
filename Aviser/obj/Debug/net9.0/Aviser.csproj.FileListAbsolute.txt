@@ -19,3 +19,7 @@
 /media/coalyni/TrueOmm/Aviser/Aviser/obj/Debug/net9.0/Aviser.pdb
 /media/coalyni/TrueOmm/Aviser/Aviser/obj/Debug/net9.0/Aviser.genruntimeconfig.cache
 /media/coalyni/TrueOmm/Aviser/Aviser/obj/Debug/net9.0/ref/Aviser.dll
+/media/coalyni/TrueOmm/Aviser/Aviser/obj/Debug/net9.0/Aviser.sourcelink.json
+/media/coalyni/TrueOmm/Aviser/Aviser/bin/Debug/net9.0/Knapcode.TorSharp.dll
+/media/coalyni/TrueOmm/Aviser/Aviser/bin/Debug/net9.0/SharpCompress.dll
+/media/coalyni/TrueOmm/Aviser/Aviser/bin/Debug/net9.0/System.ServiceModel.Syndication.dll

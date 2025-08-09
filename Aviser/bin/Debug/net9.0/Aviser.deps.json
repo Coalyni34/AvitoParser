@@ -9,6 +9,7 @@
       "Aviser/1.0.0": {
         "dependencies": {
           "HtmlAgilityPack": "1.12.2",
+          "Knapcode.TorSharp": "2.15.0",
           "Selenium.WebDriver": "4.34.0"
         },
         "runtime": {
@@ -23,11 +24,39 @@
           }
         }
       },
+      "Knapcode.TorSharp/2.15.0": {
+        "dependencies": {
+          "SharpCompress": "0.32.2",
+          "System.ServiceModel.Syndication": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Knapcode.TorSharp.dll": {
+            "assemblyVersion": "2.15.0.0",
+            "fileVersion": "2.15.0.0"
+          }
+        }
+      },
       "Selenium.WebDriver/4.34.0": {
         "runtime": {
           "lib/net8.0/WebDriver.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "SharpCompress/0.32.2": {
+        "runtime": {
+          "lib/net6.0/SharpCompress.dll": {
+            "assemblyVersion": "0.32.2.0",
+            "fileVersion": "0.32.2.0"
+          }
+        }
+      },
+      "System.ServiceModel.Syndication/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.ServiceModel.Syndication.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       }
@@ -46,12 +75,33 @@
       "path": "htmlagilitypack/1.12.2",
       "hashPath": "htmlagilitypack.1.12.2.nupkg.sha512"
     },
+    "Knapcode.TorSharp/2.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uFIymeYyF2HZ/9nhmouwg42e/ya5Qxqwzx+xo0/poB50DUIapDu+rtFu8eiig9jc0ppeQSM9abjZxU5C9duR9g==",
+      "path": "knapcode.torsharp/2.15.0",
+      "hashPath": "knapcode.torsharp.2.15.0.nupkg.sha512"
+    },
     "Selenium.WebDriver/4.34.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-uNx+GF7WugHDPV2zpGDPlbSn3STQ6n0xFskFSeJdhEuuUTkIDfAsYnjVUiQidWDpy7mKzTz53ae7Thjghl3dng==",
       "path": "selenium.webdriver/4.34.0",
       "hashPath": "selenium.webdriver.4.34.0.nupkg.sha512"
+    },
+    "SharpCompress/0.32.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MSt6TKAg2c0uFFDtf7oACB4DfvXKq5Cvot2e0wjy5nAiVujpIRQ8laiIqCU/VMRGyytasGzg+nODKTkkDjbr/g==",
+      "path": "sharpcompress/0.32.2",
+      "hashPath": "sharpcompress.0.32.2.nupkg.sha512"
+    },
+    "System.ServiceModel.Syndication/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cp1mMNG87iJtE0oHXFtfWT6cfski2JNo5iU0siTPi/uN2k1CIJI6FE4jr4v3got2dzt7wBq17fSy44btun9GiA==",
+      "path": "system.servicemodel.syndication/6.0.0",
+      "hashPath": "system.servicemodel.syndication.6.0.0.nupkg.sha512"
     }
   }
 }

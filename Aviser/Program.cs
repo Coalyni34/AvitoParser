@@ -161,6 +161,10 @@
             Parser parser = new Parser();
             goods = parser.ParseGoods(request.ToLower(), count, isDost);
             Console.WriteLine($"Найдено товаров: {goods.Count}");
+            foreach (var good in goods.Take(5))
+            {
+                Console.WriteLine(good);
+            }
         }
         else
         {
